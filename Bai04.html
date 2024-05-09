@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đổi đơn vị</title>
+</head>
+<body>
+    <h1>Chuyển đổi đơn vị</h1>
+
+    <div class="input-group">
+        <label for="value">Giá trị:</label>
+        <input type="number" id="value" required>
+
+        <label for="unit-from">Đơn vị nguồn:</label>
+        <select id="unit-from">
+            <option value="m">Mét (m)</option>
+            <option value="ft">Feet (ft)</option>
+            <option value="in">Inch (in)</option>
+            </select>
+    </div>
+
+    <div class="input-group">
+        <label for="unit-to">Đơn vị đích:</label>
+        <select id="unit-to">
+            <option value="m">Mét (m)</option>
+            <option value="ft">Feet (ft)</option>
+            <option value="in">Inch (in)</option>
+            </select>
+
+        <button id="btn-convert">Chuyển đổi</button>
+    </div>
+
+    <div id="result"></div>
+    <script src="Bai04.js"></script>
+  
+</body>
+</html>

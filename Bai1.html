@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<form id="student-form">
+    <h1>Thông tin sinh viên</h1>
+  <label for="student-id">Mã SV:</label>
+  <input type="text" id="student-id" pattern="21[0-9]{8}" required>
+  <br><br>
+  <label for="full-name">Họ Tên:</label>
+  <input type="text" id="full-name" required>
+  <br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" required>
+  <br><br>
+  <label for="phone">Điện Thoại:</label>
+  <input type="tel" id="phone" pattern="[0-9]{10}" required>
+  <br><br>
+  <label for="class">Lớp:</label>
+  <input type="text" id="class" pattern="CCQ[0-9]{4}[A-Z]" required>
+  <br><br>
+  <button type="submit" style="background-color: aquamarine;">Submit</button>
+  <script src="Bai1.js"></script>
+</form>
+</body>
+</html>
