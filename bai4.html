@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bai 4</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="masv">Mã sinh viên</label>
+                    <input type="text" id="masv" class="form-control">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="hoten">Họ tên</label>
+                    <input type="text" id="hoten" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="lop">Lớp</label>
+                    <input type="text" id="lop" class="form-control">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="ngaysinh">Ngày sinh</label>
+                    <input type="date" id="ngaysinh" class="form-control">
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-success" id="themsv">Thêm</button>
+        <h3 class="text-center">DANH SÁCH SINH VIÊN</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Mã SV</th>
+                    <th>Họ Tên</th>
+                    <th>Lớp</th>
+                    <th>Ngày sinh</th>
+                </tr>
+            </thead>
+            <tbody id="show"></tbody>
+        </table>
+    </div>
+    <script src="bai4.js"></script>
+</body>
+</html>
